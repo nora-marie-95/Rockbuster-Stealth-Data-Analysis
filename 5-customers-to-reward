@@ -1,0 +1,25 @@
+SELECT A.customer_id, 
+       A.first_name, 
+       A.last_name, 
+       Sum(C.amount) AS total_amount_paid, 
+       F.country, 
+       E.city 
+FROM   customer A 
+       INNER JOIN rental B 
+               ON A.customer_id = B.customer_id 
+       INNER JOIN payment C 
+               ON B.rental_id = C.rental_id 
+       INNER JOIN address D 
+               ON A.address_id = D.address_id 
+       INNER JOIN city E 
+               ON D.city_id = E.city_id 
+       INNER JOIN country F 
+               ON E.country_id = F.country_id 
+WHERE  E.city IN( 'Cape Coral', 'Santa Brbara dOeste', 'Memphis', 'Valparai', 
+                  'Aurora', 'Halisahar', 'Bijapur', 'Usolje-Sibirskoje', 
+                  'Probolinggo', 'Zhoushan' ) 
+GROUP  BY A.customer_id, 
+          F.country, 
+          E.city 
+ORDER  BY Sum(C.amount) DESC 
+LIMIT  5 
