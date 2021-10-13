@@ -13,7 +13,7 @@ The Rockbuster Stealth Management Board has asked a series of business questions
 4. Where are customers with a high lifetime value based?
 5. Do sales figures vary between geographic regions?
 
-Download the Rockbuster data set:
+Download the Rockbuster data set: 
 http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 
 Link to my Tableau story:
