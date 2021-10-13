@@ -18,5 +18,5 @@ The data set is a relational data base that contains information about Rockbuste
 
 [Click to download the data set](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip/)
 
-## Link to my Tableau story:
+## Link to my Tableau story  
 [Click to see Tableau story](https://public.tableau.com/app/profile/nora.lienenbecker/viz/RockbusterDataAnalysis_16299034663000/RockbbusterDataAnalysis/)
