@@ -16,8 +16,7 @@ The Rockbuster Stealth Management Board has asked a series of business questions
 ## Data 
 The data set is a relational data base that contains information about Rockbuster's film inventory, customers, and payments, among other things. 
 
-Download the data set: 
-[Click to download] (http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+[Click to download the data set](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip/)
 
 ## Link to my Tableau story:
-[Click to see Tableau story] (https://public.tableau.com/app/profile/nora.lienenbecker/viz/RockbusterDataAnalysis_16299034663000/RockbbusterDataAnalysis)
+[Click to see Tableau story](https://public.tableau.com/app/profile/nora.lienenbecker/viz/RockbusterDataAnalysis_16299034663000/RockbbusterDataAnalysis/)
